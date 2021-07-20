@@ -7,4 +7,3 @@ def floor(n: float) -> int:
     """Returns the floor of a float
     """
     return math.floor(n)
-{"mode":"full","isActive":false}

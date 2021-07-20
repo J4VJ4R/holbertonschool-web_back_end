@@ -11,4 +11,3 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
         """
         return m * multiplier
     return mult
-{"mode":"full","isActive":false}
