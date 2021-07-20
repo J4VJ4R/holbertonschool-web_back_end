@@ -1,17 +1,12 @@
 #!/usr/bin/env python3
-"""concat module
-"""
+"""Basic annotations task 1 """
 
 
 def concat(str1: str, str2: str) -> str:
-    """concat two strings
-
+    """Concatenates two strings
     Args:
-        str1 (str): first string
-        str2 (str): second string
-
-    Returns:
-        str: str1 + str2
+        str1: string
+        str2: string
+    Return: concatenated string
     """
-    return str1 + str2
-{"mode":"full","isActive":false}
+    return "{}{}".format(str1, str2)
